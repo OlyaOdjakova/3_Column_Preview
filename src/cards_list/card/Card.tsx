@@ -3,11 +3,11 @@ import styles from "./card.module.css";
 import React from "react";
 
 interface CardProps {
-  backgroundColor: any;
-  imgSource: any;
-  title: any;
-  content: any;
-  borderRadius: any;
+  backgroundColor: string;
+  imgSource: string;
+  title: string;
+  content: string;
+  borderRadius: string;
 }
 
 const Card: React.FC<CardProps> = ({
@@ -18,20 +18,18 @@ const Card: React.FC<CardProps> = ({
   borderRadius,
 }) => {
   return (
-    <>
-      <div
-        className={styles.cardStyle}
-        style={{
-          backgroundColor: backgroundColor,
-          borderRadius: borderRadius,
-        }}
-      >
-        <img src={imgSource} alt="car image" />
-        <h2 className={styles.headerStyle}>{title}</h2>
-        <p className={styles.bodyStyle}>{content}</p>
-        <Button buttonColor={backgroundColor} />
-      </div>
-    </>
+    <div
+      className={styles.cardStyle}
+      style={{
+        backgroundColor: backgroundColor,
+        borderRadius: borderRadius,
+      }}
+    >
+      <img src={imgSource} alt="car" />
+      <h2 className={styles.headerStyle}>{title}</h2>
+      <p className={styles.bodyStyle}>{content}</p>
+      <Button />
+    </div>
   );
 };
 
