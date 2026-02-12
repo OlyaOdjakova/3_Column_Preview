@@ -1,13 +1,22 @@
-import Button from "../button/button";
+import Button from "./button/Button";
 import styles from "./card.module.css";
+import React from "react";
 
-export default function Card({
+interface CardProps {
+  backgroundColor: any;
+  imgSource: any;
+  title: any;
+  content: any;
+  borderRadius: any;
+}
+
+const Card: React.FC<CardProps> = ({
   backgroundColor,
   imgSource,
   title,
   content,
   borderRadius,
-}) {
+}) => {
   return (
     <>
       <div
@@ -24,4 +33,6 @@ export default function Card({
       </div>
     </>
   );
-}
+};
+
+export default Card;

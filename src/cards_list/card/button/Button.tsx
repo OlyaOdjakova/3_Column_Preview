@@ -1,5 +1,7 @@
 import styles from "./button.module.css";
 
-export default function Button() {
+const Button = () => {
   return <button className={styles.buttonStyle}>Learn More</button>;
-}
+};
+
+export default Button;

@@ -1,5 +1,5 @@
-import Card from "../card/Card";
-import styles from "./App.module.css";
+import Card from "./card/Card";
+import styles from "./cardsList.module.css";
 import sedanimage from "../images/icon-sedans.svg";
 import suvimage from "../images/icon-suvs.svg";
 import luxuryimage from "../images/icon-luxury.svg";

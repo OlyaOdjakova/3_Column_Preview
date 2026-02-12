@@ -1,5 +1,7 @@
 import CardsList from "../cards_list/CardsList";
 
-export default function App() {
+const App = () => {
   return <CardsList />;
-}
+};
+
+export default App;
