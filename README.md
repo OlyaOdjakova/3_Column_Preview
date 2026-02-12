@@ -12,6 +12,6 @@ https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2
 
 **Live Demo:**
 
-Deployed on Vercel:
+Deployed on Vercel: https://3-column-preview-opal.vercel.app/
 
 For running the application run: `npm start`
