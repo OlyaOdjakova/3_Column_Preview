@@ -16,10 +16,7 @@
   display: flex;
   width: 50%;
   margin: 0 auto;
-  margin-top: 100px;
   justify-content: center;
   align-items: center;
   font-weight: 400;
-  box-shadow: 1px 1px 15px darkgray;
-  padding: 150px 200px;
 }

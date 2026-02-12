@@ -21,8 +21,8 @@ const Card: React.FC<CardProps> = ({
     <div
       className={styles.cardStyle}
       style={{
-        backgroundColor: backgroundColor,
-        borderRadius: borderRadius,
+        backgroundColor,
+        borderRadius,
       }}
     >
       <img src={imgSource} alt="car" />
