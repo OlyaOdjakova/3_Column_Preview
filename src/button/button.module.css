@@ -1,0 +1,14 @@
+.buttonStyle {
+  border-radius: 25px;
+  background-color: hsl(0, 0%, 95%);
+  font-weight: bold;
+  border: 3px solid transparent;
+  padding: 10px 25px;
+}
+
+.buttonStyle:hover {
+  border: 3px solid white;
+  color: hsl(0, 0%, 95%) !important;
+  background-color: transparent;
+  cursor: pointer;
+}

@@ -1,5 +1,4 @@
-import React from "react";
-import Button from "../Button/button";
+import Button from "../button/button";
 import styles from "./card.module.css";
 
 export default function Card({
